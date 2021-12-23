@@ -8,9 +8,9 @@ header, footer {
     align-items: center;
 }
 
-a {
+a, .secondary-text {
     font-size: 18px;
-    color: #e5e73b;
+    color: #e5e7eb;
     text-decoration: none;
 }
 
@@ -19,12 +19,10 @@ ul {
     list-style: none;
     display: flex; 
     justify-items: space-between;
-    border: solid red 1px;
 }
 
 li {
    margin: 10px;
-   border: solid blue 1px;
 }
 
 .top {
