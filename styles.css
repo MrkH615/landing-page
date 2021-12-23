@@ -6,6 +6,7 @@ header, footer {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 a {
@@ -21,7 +22,7 @@ ul {
 }
 
 li {
-    border: solid red 1px;
+   margin: 10px;
 }
 
 .header-logo {
