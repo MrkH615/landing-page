@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e73b;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex; 
+    justify-items: space-between;
+}
+
+li {
+    border: solid red 1px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9fafa;
+}
