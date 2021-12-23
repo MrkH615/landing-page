@@ -8,6 +8,10 @@ header, footer {
     align-items: center;
 }
 
+header {
+    border: solid red 5px;
+}
+
 a, .secondary-text ,.hero-img-placeholder {
     font-size: 18px;
     color: #e5e7eb;
@@ -40,3 +44,14 @@ li {
     color: #f9faf8;
 }
 
+.hero {
+    display: flex;
+    border: solid blue 5px;
+    place-content: center center;
+}
+
+.hero-img-placeholder {
+    background: grey;
+    width: 350px;
+    height: 175px;
+}
