@@ -3,7 +3,6 @@ body {
 }
 
 header, footer {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +24,18 @@ li {
    margin: 10px;
 }
 
+.top {
+    background-color: #1f2937;
+}
+
 .header-logo {
     font-size: 24px;
     color: #f9fafa;
 }
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
