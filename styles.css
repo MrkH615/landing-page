@@ -22,7 +22,7 @@ ul {
     padding-inline-start: 0px; /* otherwise user agent on Firefox sets at 40px */
     list-style: none;
     display: flex; 
-    justify-items: space-between;
+    justify-content: space-between;
 }
 
 li {
@@ -50,7 +50,13 @@ li {
     place-content: center center;
 }
 
+.hero-left {
+    width: 315px;
+}
+
+
 .hero-img-placeholder {
+    margin: auto;
     background: grey;
     width: 350px;
     height: 175px;
