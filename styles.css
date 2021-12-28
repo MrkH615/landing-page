@@ -25,6 +25,14 @@ ul {
     gap: 10px;
 }
 
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
+
 /*
 li {
    margin: 10px;
