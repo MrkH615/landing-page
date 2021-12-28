@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 header, footer {
@@ -8,9 +10,6 @@ header, footer {
     align-items: center;
 }
 
-header {
-    border: solid red 5px;
-}
 
 a, .secondary-text ,.hero-img-placeholder {
     font-size: 18px;
@@ -23,15 +22,46 @@ ul {
     list-style: none;
     display: flex; 
     justify-content: space-between;
+    gap: 10px;
 }
 
+/*
 li {
    margin: 10px;
 }
+*/
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    /*background-color: #1f2937;*/
+    height: 100vh;
+}
+
+.wrapper-top {
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+}
 
 .top {
-    background-color: #1f2937;
+    /*background-color: #1f2937;*/
+     display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
 }
+
+/*
+.wrapper.top {
+    background-color: #1f2937;
+    width: 100%;
+}
+*/
 
 .header-logo {
     font-size: 24px;
@@ -47,16 +77,22 @@ li {
 .hero {
     display: flex;
     border: solid blue 5px;
-    place-content: center center;
+    place-content: center space-between;
 }
 
 .hero-left {
     width: 315px;
 }
 
+.hero-right {
+    margin: auto;
+    border: solid red 1px;
+}
+
 
 .hero-img-placeholder {
-    margin: auto;
+    /*margin: auto;*/
+    margin-left: 340px;
     background: grey;
     width: 350px;
     height: 175px;
