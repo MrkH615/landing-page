@@ -54,11 +54,17 @@ li {
 }
 */
 
+/*
 img {
     height: auto;
     width: 403px;
 }
+*/
 
+img.content-img {
+    height: auto;
+    object-fit: cover;
+}
 
 
 .wrapper {
@@ -110,6 +116,11 @@ img {
     margin: auto;
 }
 */
+
+.hero-right>img {
+    height: auto;
+    width: 403px;
+}
 
 
 .hero-img-placeholder {
