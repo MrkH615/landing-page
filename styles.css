@@ -17,6 +17,11 @@ a, .secondary-text ,.hero-img-placeholder {
     text-decoration: none;
 }
 
+a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 ul {
     padding-inline-start: 0px; /* otherwise user agent on Firefox sets at 40px */
     list-style: none;
@@ -48,6 +53,11 @@ li {
    margin: 10px;
 }
 */
+
+img {
+    height: auto;
+    width: 403px;
+}
 
 
 
@@ -95,9 +105,11 @@ li {
     width: 315px;
 }
 
+/*
 .hero-right {
     margin: auto;
 }
+*/
 
 
 .hero-img-placeholder {
