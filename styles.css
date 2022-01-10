@@ -60,12 +60,12 @@ img {
     width: 403px;
 }
 */
-
+/*
 img.content-img {
     height: auto;
     object-fit: cover;
 }
-
+*/
 
 .wrapper {
     display: flex;
@@ -152,6 +152,17 @@ img.content-img {
 .content-img {
     border: solid #3882f6 2px;
     border-radius: 8px;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.caption {
+   text-align: center;
 }
