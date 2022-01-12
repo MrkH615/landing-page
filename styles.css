@@ -131,16 +131,16 @@ img.content-img {
     height: 175px;
 }
 
-.wrapper-content {
+.wrapper-content, .wrapper-quote {
    width: 100%;
    display: flex; 
    align-items: center;
    flex-direction: column;
+   padding: 20px;
 }
 
 .content {
     width: 80%;
-    border: 5px solid red;
     justify-items: center;
 }
 
@@ -167,11 +167,36 @@ img.content-img {
    text-align: center;
 }
 
-.quote {
+.wrapper-quote {
     background-color: #e5e7eb;
 }
 
-div.quote:first-child {
+.quote {
+    width: 72%; 
+    /*display: flex;*/
+}
+
+div.quote :first-child {
     font-style: italic;
     font-weight: lighter;
 }
+
+
+div.quote :last-child {
+    margin-left: auto;
+    width: 40%;
+    /*align-self:flex-end;*/
+}
+
+.call-to-action-wrapper {
+    width: 100%;
+    display: flex;
+    place-content: center;
+}
+
+.call-to-action {
+    width: 80%;
+}
+
+
+
