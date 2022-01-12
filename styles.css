@@ -196,7 +196,16 @@ div.quote :last-child {
 
 .call-to-action {
     width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
 }
+
+.call-to-action button {
+    border: solid white 5px;
+}
+
+
 
 
 
