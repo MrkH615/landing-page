@@ -203,6 +203,7 @@ div.quote :last-child {
 
 .call-to-action button {
     border: solid white 5px;
+    margin: auto 0;
 }
 
 
