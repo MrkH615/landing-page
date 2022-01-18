@@ -8,6 +8,7 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 
@@ -74,11 +75,13 @@ img.content-img {
     height: 100vh;
 }
 
-.wrapper-top {
-    background-color: #1f2937;
+.wrapper-top, footer {
+    
     width: 100%;
     display: flex;
    justify-content: center;
+   background-color: #1f2937;
+   color: #f9fafa;
 }
 
 .top {
@@ -199,11 +202,14 @@ div.quote :last-child {
     display: flex;
     justify-content: space-around;
     background-color: #3882f6;
+    color: white;
+    margin: 50px auto;
 }
 
 .call-to-action button {
-    border: solid white 5px;
+    border: solid white 1px;
     margin: auto 0;
+    padding: 5px 10px;
 }
 
 
