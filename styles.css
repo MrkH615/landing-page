@@ -197,6 +197,10 @@ div.quote :last-child {
     place-content: center;
 }
 
+.action-box {
+    align-content: center;
+}
+
 .call-to-action {
     width: 80%;
     display: flex;
@@ -209,7 +213,7 @@ div.quote :last-child {
 .call-to-action button {
     border: solid white 1px;
     margin: auto 0;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 
 
