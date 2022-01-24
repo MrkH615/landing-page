@@ -9,6 +9,7 @@ header, footer {
     justify-content: space-between;
     align-items: center;
 
+    margin: 15px 0px;
 }
 
 
@@ -47,6 +48,11 @@ h2 {
 h2, .quote {
     font-size: 36px;
     color: #1f2937;
+}
+
+footer {
+    padding: 10px;
+    height: 40px;
 }
 
 /*
@@ -204,10 +210,12 @@ div.quote :last-child {
 .call-to-action {
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #3882f6;
     color: white;
     margin: 50px auto;
+    /*! height: 100px; */
+    padding: 25px;
 }
 
 .call-to-action button {
