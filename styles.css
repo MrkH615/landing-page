@@ -225,6 +225,8 @@ div.quote :last-child {
 
 .action-box {
     align-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .call-to-action {
@@ -236,6 +238,7 @@ div.quote :last-child {
     margin: 50px auto;
     height: 60px;
     padding: 25px;
+    align-items: center;
 }
 
 .call-to-action button {
