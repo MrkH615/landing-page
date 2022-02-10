@@ -197,7 +197,7 @@ img.content-img {
 
 .wrapper-quote {
     background-color: #e5e7eb;
-    height: 250px;
+    min-height: 280px;
 }
 
 .quote {
