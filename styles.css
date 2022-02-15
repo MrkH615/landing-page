@@ -8,7 +8,6 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin: 15px 0px;
 }
 
@@ -25,7 +24,6 @@ a:hover {
 }
 
 ul {
-    /* padding-inline-start: 0px;  otherwise user agent on Firefox sets at 40px */
     list-style: none;
     display: flex; 
     justify-content: space-between;
@@ -43,7 +41,6 @@ button {
 h2 {
     font-weight: 800;
     text-align: center;
-    /*margin: 10px 0;*/
 }
 
 h2, .quote {
@@ -55,25 +52,6 @@ footer {
     padding: 10px;
     height: 40px;
 }
-
-/*
-li {
-   margin: 10px;
-}
-*/
-
-/*
-img {
-    height: auto;
-    width: 403px;
-}
-*/
-/*
-img.content-img {
-    height: auto;
-    object-fit: cover;
-}
-*/
 
 .wrapper {
     display: flex;
@@ -92,7 +70,6 @@ img.content-img {
 }
 
 .top {
-    /*background-color: #1f2937;*/
      display: flex;
     flex-direction: column;
     align-content: center;
@@ -127,11 +104,11 @@ img.content-img {
     margin: 10px 0;
 }
 
-/*
+
 .hero-right {
-    margin: auto;
+    min-width: fit-content;
 }
-*/
+
 
 .hero-right>img {
     height: auto;
@@ -140,7 +117,6 @@ img.content-img {
 
 
 .hero-img-placeholder {
-    /*margin: auto;*/
     margin-left: 340px;
     background: grey;
     width: 350px;
@@ -149,7 +125,6 @@ img.content-img {
 
 .wrapper-content {
     height: 350px;
-  
 }
 
 .wrapper-content, .wrapper-quote {
@@ -165,9 +140,6 @@ img.content-img {
     width: 80%;
     display: flex;
     flex-direction: column;
-    /*! justify-items: space-between; */
-    
-    
     justify-content: space-around;
     height: 400px;
 }
@@ -203,7 +175,6 @@ img.content-img {
 
 .quote {
     width: 72%; 
-    /*display: flex;*/
 }
 
 div.quote :first-child {
@@ -215,7 +186,6 @@ div.quote :first-child {
 div.quote :last-child {
     margin-left: auto;
     width: 40%;
-    /*align-self:flex-end;*/
 }
 
 .call-to-action-wrapper {
